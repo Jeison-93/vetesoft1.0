@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="../css/nav.css">
+    
+    <link rel="stylesheet" href="../css/agenda.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="../img/logo1.jpg" alt="logo veterinaria">
+            <p>Veterinaria Huellitas</p>
+        </div>
+        <nav>
+            <ul class="nav-links">
+
+                <button class="btn-home"><img src="../img/home.png" alt="Home" /></button>
+                
+                <li> <a href="profile.html">Perfil</a></li>
+                <li> <a href="mis_mascotas.html">Mis mascotas</a></li>
+                <li> <a href="agenda.html" class="active">Agenda tu cita</a></li>
+                <li> <a href="citas_agendadas.html" >Citas Agendadas</a></li>
+                <li> <a href="contacto.html">Servicios</a></li>
+                <li> <a href="servicios.html">Contacto</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>AGENDA TU CONSULTA</h1>
+            <H3>reserva ahora GRATIS en linea y paga al moneto de tu cita </H3>
+        </section>
+
+        <section class="texfrm">
+            <h3>formularo dde usuario </h3>
+        </section>
+
+        <div id="main-content">
+            <form id="frm1">
+                
+                <div class="fecha">
+                    <div class="m1">
+                        <label for="dateFecha" class="form-label">FECHA</label>
+                        <input type="date" class="form-control" id="dateFecha">
+                    </div>
+                </div>
+
+                <div class="hora">
+                    <div class="m2">
+                        <label for="date" class="form-label">HORA</label>
+                        <select class="form-select" id="slhora">
+                            <option selected value="">hora</option>
+                            <option value="1" role="button">8:00 am</option>
+                            <option value="2">8:30 am</option>
+                            <option value="3">9:00 am</option>
+                            <option value="4">9:30 am</option>
+                            <option value="5">10:00 am</option>
+                            <option value="6">10:30 am</option>
+                            <option value="7">11:00 am</option>
+                            <option value="8">11:30 am</option>
+                            <option value="9">12:00 pm</option>
+                            <option value="10">12:30 pm</option>
+                            <option value="11">1:00 pm</option>
+                            <option value="12">1:30 pm</option>
+                            <option value="13">2:00 pm</option>
+                            <option value="14">2:30 pm</option>
+                            <option value="15">3:00 pm</option>
+                            <option value="16">3:30 pm</option>
+                          </select>
+                    </div>
+                </div>
+                <div class="especialidad">
+                    <div class="m3">
+                        <label for="dateFechaNacimiento" class="form-label">ESPECIALIDAD</label>
+                        <select class="form-select" id="slcDepartamento">
+                            <option selected value="">Open this select menu</option>
+                            <option value="1">CONSULTA</option>
+                            <option value="2">VACUNACION</option>
+                            <option value="3">PELUQUERIA</option>
+                            <option value="3">DESESPARACITACION</option>
+                            <option value="3">ESTERILIZACION</option>
+                            <option value="3">ODONTOLOGIA</option>
+                          </select>
+                    </div>
+                </div>
+
+                <div class="detalles">
+                    <div class="m4">
+                        <h2> detalles del servico </h2>
+                    </div>
+                </div>
+
+                <div class="boton">
+                    <button type="submit" class="btn-success">continuar</button>
+                </div>
+
+            </form>
+            <footer>
+                <p>&copy; 2024 Veterinaria Huellitas. <br>Todos los derechos reservados.</p>
+            </footer>
+        </div>
+    </main>
+</body>
+</html>
+

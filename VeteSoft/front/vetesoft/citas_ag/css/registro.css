@@ -1,0 +1,172 @@
+@font-face {
+    font-family: angry-birds;
+    src: url(../fuentes/angrybirds-regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    font-family: 'Angry Birds', sans-serif;
+    background-color: #38015f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 15px 3%;
+}
+
+.header .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .logo img {
+    height: 70px;
+    width: 70px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.header .logo p {
+    color: #fff;
+    font-family: angry-birds;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.header .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links a {
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    font-family: angry-birds;
+}
+
+.header .nav-links li:hover a {
+    background-color: #7b40a0;
+    transform: scale(1.2);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-home {
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-home img {
+    width: 100%;
+    height: auto;
+    filter: invert(1);
+    transition: filter 0.2s;
+}
+
+.btn-home:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btn-home:hover img {
+    filter: invert(0);
+}
+
+div#doc1 {
+    display: flex;
+    width: 200px;
+    font-size: larger;
+}
+
+#contenedor {
+    margin: 1px;
+    text-align: center;
+    display: block;
+    padding: 20px;
+}
+
+#form {
+    margin: 5px auto;
+    text-align: center;
+    max-width: 600px; /* Ancho máximo para evitar desbordamientos */
+}
+
+.form {
+    color: #060606;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form input {
+    width: 100%; /* Cambiado a 100% para responsividad */
+    max-width: 100%; /* Limitar a su contenedor */
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding-left: 10px; /* Mejorado el padding */
+    border-bottom-width: 2px; /* Ajustado para mejor apariencia */
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.registrarse, .ingresar {
+    color: white;
+    font-size: 30px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%; /* Responsivo */
+    max-width: 300px; /* Limitar el tamaño */
+    text-align: center;
+    margin: 10px auto;
+}
+
+.registrarse {
+    background-color: #38015f;
+}
+
+.ingresar {
+    background-color: #ab58e7;
+}

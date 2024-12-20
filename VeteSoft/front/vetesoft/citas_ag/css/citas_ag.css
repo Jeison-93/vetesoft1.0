@@ -1,0 +1,84 @@
+.nav-links a.active {
+    font-weight: bold;
+    color: #14d9c2; 
+    border-bottom: 2px solid #42b58b; 
+}
+.body{
+    background: linear-gradient(135deg, #86a8e7, #3ec3d5, #86a8e7);
+}
+ h1{
+    text-align: center;
+    padding: 2em;
+    font-weight: bold;
+    font-size: 36px;
+ }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+}
+
+.card img {
+    padding: 5px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.content p {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer h3 {
+    font-family: angry-birds !important;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.buttons {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #38015f;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: angry-birds;
+}
+
+.buttons button:hover {
+    background-color: #7b40a0;
+}

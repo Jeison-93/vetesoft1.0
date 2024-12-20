@@ -1,0 +1,104 @@
+main {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, hsl(187, 97%, 70%), #278cf8);
+}
+.nav-links a.active {
+    font-weight: bold;
+    color: #14d9c2; 
+    border-bottom: 2px solid #42b58b;
+}
+#contenedor1 {
+    width: 100%;
+    max-width: 760px;
+    margin: 50px auto;
+    height: auto;
+    padding: 20px;
+}
+
+div#contenedor1 h1 {
+    font-family: angry-birds;
+    src: url(../fuentes/angrybirds-regular.ttf);
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+div#animal1 {
+    width: 100%;
+    max-width: 460px;
+    height: 400px;
+    margin: 20px auto;
+    background-image: url(../img/yorkie.jpeg);
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#botones1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.eliminar, .modificar, .informacion {
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    background-color: #38015f;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.modificar {
+    background-color: #ab58e7;
+}
+
+.informacion {
+    background-color: #58abf7;
+}
+
+#contenedor2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 760px;
+}
+
+#contenedor2 h1 {
+    font-family: angry-birds;
+    src: url(../fuentes/angrybirds-regular.ttf);
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+div#animal2 {
+    width: 100%;
+    max-width: 460px;
+    height: 400px;
+    background-image: url(../img/copito.png);
+    background-size: cover;
+    border-radius: 40px;
+    margin: 20px 0;
+}
+
+#botones2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+div.boton4 {
+    margin-bottom: 50px;
+}
+
+div.boton5 {
+    padding-top: 10px;
+}
